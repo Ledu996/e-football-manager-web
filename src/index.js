@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Landing from './Landing/index';
+import Login from './Authentication/LogIn/login';
+import Registration from './Authentication/Registration/registration';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

@@ -3,11 +3,11 @@
 
 
 
-function FormWrapper () {
+const FormWrapper = ({children}) => {
     return (
-        <form></form>
+        <form>{children}</form>
     )
 }
 
 
-export default Form;
+export default FormWrapper;
