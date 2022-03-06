@@ -1,11 +1,14 @@
 import Header from "../Components/Header/index.js";
 import background_pic from './assets/landing_cover.png'
-function Home () {
+
+
+
+const Landing = () => {
     return (
-        <div>
-            <Header/>
+        <div className = "main">
+            <Header />
             <div>
-                <img src={background_pic}  alt="cover" />
+                <img src={background_pic}  alt="cover"  width="100%"/>
             </div>
         </div>
         
@@ -14,4 +17,4 @@ function Home () {
 }
 
 
-export default Home;
+export default Landing;

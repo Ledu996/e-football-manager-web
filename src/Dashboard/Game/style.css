@@ -1,0 +1,62 @@
+/*Margins*/
+.mb0{margin-bottom : 0 !important;}
+.mb1{margin-bottom: 8px;} .mb5{margin-bottom: 4px;} .mt1{margin-top: 8px;} .mt2{margin-top: 6px;}
+.ml1 {margin-left: 8px;} .ml2 {margin-left: 6px;} .ml3{margin-left: 5px} .mr1{margin-right: 8px;} 
+.mr2{margin-right: 6px;}
+
+/*Alignment*/
+.align-right {flex-direction: row-reverse;}
+.align-left {text-align: left;}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: #020b3d;*/
+    font-family: 'Montserrant, sans-sefir';
+    font-size: 16px;
+    /*color: #e6e6e6;*/
+}
+
+.scoreboard {
+    margin: auto;
+    margin-top: 5px;
+    width: 514px;
+    background-color: #615f5f69;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+}
+.container {
+    padding: 6px;
+}
+.__basic, .result__container, .scoreboard__result {
+    display: flex;
+    justify-content: center;
+}
+.__basic {align-items: center; flex-direction: column}
+
+.label {
+    text-transform: uppercase;
+    color: #e6e6e6;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 4px;
+}
+.timer{font-size: 18px;}
+
+.scoreboard__team {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1px;
+}
+
+.__badge {width: 78px; height: 78px;} .__team_name{width: 100%; display: block; font-size: 15px;}
+
+.scoreboard__result {align-items: center; text-align: center;}
+
+.__scoreboard__result_home, .__scoreboard_separator, .__scoreboard__result_away {font-size: 26px;}
+
+.__team_image {height: 78px; width: 78px}

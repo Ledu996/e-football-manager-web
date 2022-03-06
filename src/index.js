@@ -6,10 +6,11 @@ import Landing from './Landing/index';
 import Login from './Authentication/LogIn/login';
 import Registration from './Authentication/Registration/registration';
 import reportWebVitals from './reportWebVitals';
+import Router from './Router';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Landing/>
+   <Router />
   </React.StrictMode>,
   document.getElementById('root')
 );

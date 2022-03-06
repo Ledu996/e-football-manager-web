@@ -1,11 +1,11 @@
 
-
+import { useState } from "react";
 
 
 
 const FormWrapper = ({children}) => {
     return (
-        <form>{children}</form>
+        <div className = "form">{children}</div>
     )
 }
 

@@ -1,0 +1,32 @@
+.dash {
+    top: 10%;
+    height: 70%;
+    /*background-color: #000;*/
+}
+
+.dash_kickoff {
+    width: 20%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    border-right: 1px solid #000;
+    /*color: rgb(229, 236, 130);*/
+}
+/*@-ms-viewport {
+    width: device-width;
+}*/
+.vs_kickoff {
+    position: relative;
+}
+.span {
+    font-size: 18px;
+    position: absolute;
+    top: 21px;
+}
+
+.dash_img_cover {
+    height: 75px;
+    width: 75px;
+}

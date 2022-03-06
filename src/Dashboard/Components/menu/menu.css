@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #000;
+    width: 1500px;
+    margin: 0 auto;
+    margin-top : 100px;
+    background-color: #8f8c8c9f;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.option {
+    padding: 4px;
+}
+
+.option:hover {
+    cursor: pointer;
+}
+
+.option > svg {
+    width: '70px'; 
+    height: '50px';
+}
